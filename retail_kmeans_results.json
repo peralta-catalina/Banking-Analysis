@@ -1,0 +1,36 @@
+{
+  "dataset": "Online Retail II",
+  "n_customers": 5878,
+  "n_transactions_after_cleaning": 805549,
+  "silhouette_scores_by_k": {
+    "2": 0.4186,
+    "3": 0.401,
+    "4": 0.3614,
+    "5": 0.3665,
+    "6": 0.3499,
+    "7": 0.3357,
+    "8": 0.3173
+  },
+  "chosen_k": 2,
+  "final_silhouette_score": 0.4186,
+  "cluster_profile": [
+    {
+      "Cluster": 0,
+      "Size": 2674,
+      "Recency_mean": 63.1,
+      "Frequency_mean": 11.6,
+      "Monetary_mean": 5987.7,
+      "Monetary_total": 16011189.2,
+      "Size_pct": 45.5
+    },
+    {
+      "Cluster": 1,
+      "Size": 3204,
+      "Recency_mean": 316.7,
+      "Frequency_mean": 1.9,
+      "Monetary_mean": 540.6,
+      "Monetary_total": 1732240.0,
+      "Size_pct": 54.5
+    }
+  ]
+}
