@@ -1,9 +1,9 @@
-# Case Studies in Data Science — Individual Task 1, Part 1.3: Data Analysis
+# Case Studies in Data Science Individual Task 1, Part 1.3: Data Analysis
 
 Two independent machine learning pipelines, applied to the two datasets identified in Part 1.2,
 for the RMIT Case Studies in Data Science assignment (Senior Consultant, Data Engineering role at Practiv).
 
-## Datasets (not included — download separately)
+## Datasets (not included download separately)
 
 1. **Online Retail II** (UCI Machine Learning Repository)
    https://archive.ics.uci.edu/dataset/502/online+retail+ii
@@ -28,7 +28,7 @@ pip install -r requirements.txt
   silhouette score, and fits a KMeans model to segment customers.
   Outputs: `retail_kmeans_results.png`, `retail_kmeans_results.json`, `retail_rfm_with_clusters.csv`
 
-- `fraud_classification.py` — trains a Random Forest classifier (`class_weight="balanced"`) on
+- `fraud_classification.py`  trains a Random Forest classifier (`class_weight="balanced"`) on
   the Credit Card Fraud Detection dataset to flag fraudulent transactions, evaluated with metrics
   suited to extreme class imbalance (precision, recall, F1, ROC-AUC, AUPRC).
   Outputs: `fraud_rf_results.png`, `fraud_rf_feature_importance.png`, `fraud_rf_results.json`
